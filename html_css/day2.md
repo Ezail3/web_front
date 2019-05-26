@@ -103,8 +103,7 @@ margin: auto
 
 ```html
 <div style="height: 5000px">
-    <div style="width: 100px;height: 100px;position: fixed;right: 0;bottom: 0;background: red">
-    </div>
+    <div style="width: 100px;height: 100px;position: fixed;right: 0;bottom: 0;background: red"></div>
 </div>
 ```
 
