@@ -10,7 +10,7 @@
 <div style="margin: 10px"></div>
 表示四周都围起10px
 margin: 10px 20px
-表示左右10px，上下20px
+表示上下10px，左右20px
 margin: 10px 20px 30px 40px
 表示上右下左
 margin: auto
