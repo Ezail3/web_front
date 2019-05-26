@@ -114,7 +114,7 @@ margin: auto
 
 ```html
 <div style="background: yellow;">
-    <div style="width: 200px;height: 200px;background: red;position: absolute;top: 0;left:0;">		</div>
+    <div style="width: 200px;height: 200px;background: red;position: absolute;top: 0;left:0;"></div>
 </div>
 ```
 
@@ -130,7 +130,7 @@ margin: auto
 
 ```html
 <div style="background: yellow;">
-    <div style="width: 200px;height: 200px;background: red;position: absolute;top: 0;left:0;">		</div>
+    <div style="width: 200px;height: 200px;background: red;position: absolute;top: 0;left:0;"></div>
     <div style="width: 220px;height: 220px;background: green"></div>
 </div>
 ```
@@ -139,4 +139,5 @@ margin: auto
 
 但是发现滤色块呆在红色块底下，说明红色块没有占位置
 
-**小结：**定位元素存在不占位置和脱离文档流问题，无法解决，能用margin，padding就不要用定位
+**小结：**
+定位元素存在不占位置和脱离文档流问题，无法解决，能用margin，padding就不要用定位
