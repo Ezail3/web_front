@@ -20,8 +20,8 @@ margin: auto
 **margin存在的问题**
 
 ```html
-<div style="width: 500px;height: 500px; background: red;">
-    <div style="width: 100px; height: 100px; background: blue;margin-left: 50px;margin-top: 50px"></div>
+<div style="width: 500px;height: 500px;background: red;">
+    <div style="width: 100px;height: 100px;background: blue;margin-left: 50px;margin-top: 50px"></div>
 </div>
 ```
 
@@ -34,8 +34,8 @@ margin: auto
 鉴于margin在纵坐标方向存在合并问题，这里我们引申出内边距方案解决问题
 
 ```html
-<div style="width: 500px;height: 500px; background: red;padding-top: 50px">
-    <div style="width: 100px; height: 100px; background: blue;margin-left: 50px;"></div>
+<div style="width: 500px;height: 500px;background: red;padding-top: 50px">
+    <div style="width: 100px;height: 100px;background: blue;margin-left: 50px;"></div>
 </div>
 ```
 
@@ -50,15 +50,15 @@ margin: auto
 这是因为盒模型，在使用内边距时会让内部容积变小，所以这里被默认加上了50px，所以我们需要单独处理，padding多少，元素宽高就要相应减去多少，如下:
 
 ```html
-<div style="width: 500px;height: 450px; background: red;padding-top: 50px">
-    <div style="width: 100px; height: 100px; background: blue;margin-left: 50px;"></div>
+<div style="width: 500px;height: 450px;background: red;padding-top: 50px">
+    <div style="width: 100px;height: 100px;background: blue;margin-left: 50px;"></div>
 </div>
 ```
 
 测试一波
 
 ```html
-<div style="width: 500px;background: red; padding-top:50px;"></div>
+<div style="width: 500px;background: red;padding-top:50px;"></div>
 ```
 
 这个红色块没有给高度，也没有子元素为其撑开高度，用了padding，它就显示了padding的高度
@@ -90,7 +90,7 @@ margin: auto
 ```html
 <div style="width: 1200px;height: 1200px;background: green;position: relative">
     <div style="width: 800px;height: 800px;background: red;position: absolute;right: 0;top: 0">
-        <div style="width: 100px; height: 100px; background: blue;position: absolute;right: 0;bottom: 0"></div>
+        <div style="width: 100px;height: 100px;background: blue;position: absolute;right: 0;bottom: 0"></div>
     </div>
 </div>
 ```
