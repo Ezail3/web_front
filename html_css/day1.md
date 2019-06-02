@@ -8,7 +8,7 @@
     </head>
     
     <body>
-        <div style="width: 200px; height: 200px; background-color: deeppink"></div>
+        <div style="width: 200px;height: 200px;background-color: deeppink"></div>
     </body>
 </html>
 ```
@@ -21,7 +21,7 @@
 <html>
 	<head>
         <style>
-            div {width: 200px; height: 200px; background-color: deeppink}
+            div {width: 200px;height: 200px;background-color: deeppink}
         </style>
     </head>
     
@@ -37,7 +37,7 @@
  <html>  
 	<head>
         <style>
-        	#box {width: 200px; height: 200px; background-color: deeppink}
+        	#box {width: 200px;height: 200px;background-color: deeppink}
         </style>
     </head>
 
@@ -55,7 +55,7 @@
 <html>
     <head>
         <style>
-        	.box {width: 200px; height: 200px; background-color: deeppink}
+        	.box {width: 200px;height: 200px;background-color: deeppink}
         </style>
     </head>
 
@@ -86,7 +86,7 @@
 </html>
 
 ./style.css文件(.表示和html同级，即一个目录中)
-.box,.aaa{width: 200px; height: 200px; background-color: deeppink}
+.box,.aaa{width: 200px;height: 200px;background-color: deeppink}
 ```
 
 **优先级**
@@ -132,8 +132,8 @@ display: inline-block
 <html>
     <head>
     	<style>
-        	* {margin: 0; padding: 0;}
-        	.box{width: 200px; height: 200px; background-color: deeppink; float: left}
+        	* {margin: 0;padding: 0;}
+        	.box{width: 200px;height: 200px;background-color: deeppink;float: left}
     	</style>
 	</head>
 
@@ -141,7 +141,7 @@ display: inline-block
         <div class="box">1</div>
         <div class="box">2</div>
         <div class="box">3</div>
-        <div style="width: 600px; height: 300px; background-color: blue">666</div>
+        <div style="width: 600px;height: 300px;background-color: blue">666</div>
 	</body>
 </html>
 
@@ -154,8 +154,8 @@ display: inline-block
 <html>
     <head>
         <style>
-            * {margin: 0; padding: 0;}
-            .box{width: 200px; height: 200px; background-color: deeppink; float: left}
+            * {margin: 0;padding: 0;}
+            .box{width: 200px;height: 200px;background-color: deeppink;float: left}
         </style>
 	</head>
 
@@ -179,8 +179,8 @@ display: inline-block
 	</head>
 
 	<body>
-    	<div style="width: 200px; height: 200px; background-color: deeppink">
-        	<div style="height: 100px; background-color: blue; float: left"></div>
+    	<div style="width: 200px;height: 200px;background-color: deeppink">
+        	<div style="height: 100px;background-color: blue;float: left"></div>
     	</div>
 	</body>
 </html>
