@@ -83,7 +83,7 @@ img元素自带宽高，只给宽或者高，大小会按比例自动缩放，�
 只给一个原图片的高度即可
 
 ```html
-<div style="background: url(img/banner.ipg) cnter; height: 600px;">
+<div style="background: url(img/banner.ipg) center; height: 600px;">
 ```
 
 这样解决了左右滚动条问题，但是小显示器会看不到banner图两侧的内容，但这无伤大雅，一般设计那部分都是无关紧要的内容，嘿嘿
