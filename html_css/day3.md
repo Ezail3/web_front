@@ -95,7 +95,6 @@ img元素自带宽高，只给宽或者高，大小会按比例自动缩放，�
 <div style="background: url(img/banner.ipg) center no-repeat; height: 600px;">
 ```
 
-### 1.3 输入框
 ### 1.6 文本属性
 
 ```html
