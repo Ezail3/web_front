@@ -110,9 +110,14 @@ font-family: '微软雅黑'	设置字体格式，用引号包住，外面有一�
             color: white;
             margin-left: 10px;
         }
-        li:hover{background: orangered;
+        li:hover {background: orangered;
             cursor: pointer;
         }
+        /*鼠标滑过li，background变为橘色，鼠标变为小手*/
+        /*li:hover a{ color: oranged}
+        鼠标划过li，a标签中的字变为橘色
+	这种用法，只能控制划过内容的子集变化
+        */	
         a{color: white; text-decoration: none;display: inline-block;height: 50px;width: 120px;}
     </style>
 </head>
