@@ -13,7 +13,7 @@ function 方法名(参数){干啥事}
 **函数调用**
 
 ```javascript
-方法名()
+方法名();
 ```
 
 **参数：**
@@ -104,7 +104,7 @@ function getMax(a, b, c){
 局部作用域：函数内部 局部作用域内声明的变量叫局部变量
 
 ```javascript
-var a = 3
+var a = 3;
 function my(){
     a = 6;
 }
