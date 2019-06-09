@@ -88,7 +88,7 @@ person.name = "";
 对象的属性名如果是变量，不能用点访问
 
 ```javascript
-var name = 'aaa';
+var name = 'ahh';
 var person = {[name]: "小明"};
 console.log(person[name]);
 ```
