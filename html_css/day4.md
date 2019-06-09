@@ -120,6 +120,8 @@ opacity值在0到1之间，越小透明度越高
 
 ### 2.3 超出部分隐藏
 
+标签中，字母和数字溢出的话，不会换行，所以要隐藏
+
 ```html
 <p style="width: 50px;height: 50px;background: red;overflow: hidden;text-overflow: ellipsis">aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
 ```
@@ -137,6 +139,8 @@ opacity值在0到1之间，越小透明度越高
 scroll意思是以滚动条的形式展示
 
 ### 2.4 文字强制不换行
+
+标签中，文字溢出会换行
 
 ```html
 <button style="width: 50px;white-space: nowrap">59s后重新获取</button>
