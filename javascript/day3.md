@@ -134,7 +134,7 @@ function getCount(){
     function getUnique(){
         return n++;
     }
-    return GetUnique;
+    return getUnique;
 }
 
 var c = getCount();
