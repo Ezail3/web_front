@@ -68,8 +68,7 @@
 元素class可重复
 
 .a .b	表示父级class为a本身class为b的元素
-.a, .b  表
-示class为a和b的两种元素基于css文件
+.a, .b  表示class为a和b的两种元素基于css文件
 ```
 
 ### 1.3 css文件
