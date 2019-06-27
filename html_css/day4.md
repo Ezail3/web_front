@@ -57,6 +57,8 @@
 
  <br>
  <button style="width: 160px;height: 54px;background: #5696ff;color: #fff;font-size: 26px;border: none;outline: none">按钮</button>
+<!--form里面写数据提交地址-->
+<!--一定要加name属性，不然后端不识别这条数据-->
 <!--表单元素都虽然是内联元素，但都可以设置宽高-->
 ```
 
