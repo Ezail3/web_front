@@ -48,11 +48,11 @@
 
 ```html
 <form>
-	<input type="text" placeholder="用户名" name="user_name">
+	<input type="text" placeholder="用户名" name="user_name" value="">
     <br>
-    <input type="password" placeholder="密码" name="password">
+    <input type="password" placeholder="密码" name="password" value="">
     <br>
-    <input type="button" value="按钮">
+    <input type="submit" value="按钮">
 </form>
 
  <br>
