@@ -100,7 +100,7 @@ window.setInterval(function(){this}, 1000)
 
 ## Ⅳ、案例
 
-### 4.1 倒计时 今日十二点
+### 4.1 倒计时
 
 ```javascript
 <body>
