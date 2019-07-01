@@ -356,7 +356,7 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
 
 ### 4.2 选项卡
 
-选项卡选到哪一个，对应的选项卡变色，且下方大框框中文字切换为对应选项卡的名字
+鼠标划过选项卡，选项卡变绿，点击选中则下方大框框中文字切换为对应选项卡的名字
 
 ```javascript
 <head>
@@ -403,17 +403,17 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
 </head>
 <body>
     <ul class="nav">
-        <li id="tab1" onmousemove="chose_card(`tab1`)">Tab1</li>
-        <li id="tab2" onmousemove="chose_card(`tab2`)">Tab2</li>
-        <li id="tab3" onmousemove="chose_card(`tab3`)">Tab3</li>
-        <li id="tab4" onmousemove="chose_card(`tab4`)">Tab4</li>
-        <li id="tab5" onmousemove="chose_card(`tab5`)">Tab5</li>
+        <li id="tab1" onclick="chose_card(`tab1`)">Tab1</li>
+        <li id="tab2" onclick="chose_card(`tab2`)">Tab2</li>
+        <li id="tab3" onclick="chose_card(`tab3`)">Tab3</li>
+        <li id="tab4" onclick="chose_card(`tab4`)">Tab4</li>
+        <li id="tab5" onclick="chose_card(`tab5`)">Tab5</li>
     </ul>
-
+    
     <div class="content">
         <span class="chose" id="chose"></span>
     </div>
-
+    
     <script>
         function chose_card(tab_no){
             document.getElementById("chose").innerHTML = `${tab_no}`.charAt(3).repeat(6);
