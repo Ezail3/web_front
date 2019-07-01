@@ -118,7 +118,7 @@ window.setInterval(function(){this}, 1000)
             if(ms < 0){
                 clearInterval(timer);
                 timer = null;
-                txt.innerHTML="Bingo~~~"
+                txt.innerHTML="Bingo~~~";
             }
         }
 
