@@ -198,6 +198,7 @@ window.setInterval(function(){this}, 1000)
                 clearInterval(timer);
                 timer = null;
                 timer2 = setTimeout(function(){timer = setInterval(up,33)},3000);
+		//回掉函数实现关闭之后又打开
             }
         }
 
