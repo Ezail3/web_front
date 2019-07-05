@@ -11,7 +11,7 @@ on+事件名 事件处理函数
 ### 1.1 EventListener语法
 
 ```javascript
-语法：obj.addEventListener("事件名","方法对象","是否在捕获阶段触发")
+obj.addEventListener("事件名","方法对象","是否在捕获阶段触发")
 obj.removeEventListener("事件名","方法对象","是否在捕获阶段触发")
 ```
 
