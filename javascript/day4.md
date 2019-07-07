@@ -261,7 +261,7 @@ function unique(arr){
         }
     }
     
-    return hasn;
+    return hash;
 }
 ```
 
