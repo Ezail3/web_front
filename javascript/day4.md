@@ -256,7 +256,7 @@ setMonth() 要减1修正
 function unique(arr){
     var hash = [];
     for(var i = 0; i < arr.length; i++){
-        if(-1 == hash.indexOf[i]){
+        if(-1 == hash.indexOf(arr[i])){
             hash.push(arr[i]);
         }
     }
