@@ -134,10 +134,10 @@ box.className = 'xxx';
 
 - 设置属性传属性名和属性值(用的不多)
 
-  ```javascript
-  box.setAttribute("属性名","属性值");
-  box.getAttribute("属性名");
-  ```
+```javascript
+box.setAttribute("属性名","属性值");
+box.getAttribute("属性名");
+```
 
 **有个问题**
 
@@ -402,22 +402,22 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
     </style>
 </head>
 <body>
-    <ul class="nav">
-        <li id="tab1" onclick="chose_card(`tab1`)">Tab1</li>
-        <li id="tab2" onclick="chose_card(`tab2`)">Tab2</li>
-        <li id="tab3" onclick="chose_card(`tab3`)">Tab3</li>
-        <li id="tab4" onclick="chose_card(`tab4`)">Tab4</li>
-        <li id="tab5" onclick="chose_card(`tab5`)">Tab5</li>
-    </ul>
-    
-    <div class="content">
-        <span class="chose" id="chose"></span>
-    </div>
-    
-    <script>
-        function chose_card(tab_no){
-            document.getElementById("chose").innerHTML = `${tab_no}`.charAt(3).repeat(6);
-        }
-    </script>
+<ul class="nav">
+    <li id="tab1" onclick="chose_card(`tab1`)">Tab1</li>
+    <li id="tab2" onclick="chose_card(`tab2`)">Tab2</li>
+    <li id="tab3" onclick="chose_card(`tab3`)">Tab3</li>
+    <li id="tab4" onclick="chose_card(`tab4`)">Tab4</li>
+    <li id="tab5" onclick="chose_card(`tab5`)">Tab5</li>
+</ul>
+
+<div class="content">
+    <span class="chose" id="chose"></span>
+</div>
+
+<script>
+    function chose_card(tab_no){
+        document.getElementById("chose").innerHTML = `${tab_no}`.charAt(3).repeat(6);
+    }
+</script>
 </body>
 ```
