@@ -165,6 +165,14 @@ window.setInterval(function(){this}, 1000)
 ### 4.3 小广告
 
 ```javascript
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #adv{width: 200px;height: 180px;background: #cfc;position: fixed;bottom: -180px;right: 0}
+    </style>
+</head>
+
 <body>
     <div id="adv">
         <span onclick="hide()">关闭</span>
