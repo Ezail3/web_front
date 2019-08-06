@@ -11,7 +11,6 @@
 **描边**
 
 - solid——实线
-
 - dashed——虚线
 
 ```html
@@ -76,8 +75,6 @@
 </body>
 ```
 
-
-
 ### 1.4 透明块
 
 opacity值在0到1之间，越小透明度越高
@@ -85,6 +82,8 @@ opacity值在0到1之间，越小透明度越高
 ```html
 <div style="height: 100px; width: 100px;background-color: purple;opacity: 0.5;"></div>
 ```
+
+
 
 ## Ⅱ、查漏补缺
 
@@ -118,6 +117,7 @@ opacity值在0到1之间，越小透明度越高
         <td>Kobe</td>
     </tr>
 </table>
+
 ```
 
 ### 2.3 超出部分隐藏
@@ -126,6 +126,7 @@ opacity值在0到1之间，越小透明度越高
 
 ```html
 <p style="width: 50px;height: 50px;background: red;overflow: hidden;text-overflow: ellipsis">aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+
 ```
 
 这俩属性必须同时出现才能生效
@@ -136,6 +137,7 @@ opacity值在0到1之间，越小透明度越高
 <div style="width: 500px;height: 500px;background: green;overflow: scroll">
     <div style="width: 1000px; height: 200px;background: red"></div>
 </div>
+
 ```
 
 scroll意思是以滚动条的形式展示
