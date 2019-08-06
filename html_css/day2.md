@@ -71,6 +71,8 @@ margin: auto
 
 同级之间推荐用margin，子父级之间推荐用padding
 
+
+
 ## Ⅱ、元素定位——position
 
 ### 2.1 absolute
@@ -98,8 +100,6 @@ margin: auto
     </div>
 </div>
 ```
-
-
 
 ### 2.3 fixed
 
