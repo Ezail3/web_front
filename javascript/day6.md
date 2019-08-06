@@ -77,8 +77,6 @@ js中的thiis，指向函数运行时所在的对象， 换言之，谁调用了
 //此时在标签中绑定事件并传入参数this，这时候的this就是这个标签对象
 ```
 
-
-
 **重点：所以在定时器中的方法用到this，这个this指window**
 
 ```javascript
@@ -100,7 +98,7 @@ window.setInterval(function(){this}, 1000)
 
 ## Ⅳ、案例
 
-### 4.1 倒计时
+### 4.1 倒计时 
 
 ```javascript
 <body>
@@ -224,3 +222,4 @@ window.setInterval(function(){this}, 1000)
     </script>
 </body>
 ```
+
