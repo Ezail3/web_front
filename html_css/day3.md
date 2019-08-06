@@ -80,8 +80,7 @@ img元素自带宽高，只给宽或者高，大小会按比例自动缩放，�
 
 **正解**
 
-咱们用背景图片的方式引入图片，跨过img
-只给一个原图片的高度即可
+咱们用背景图片的方式引入图片，跨过img，只给一个原图片的高度即可
 
 ```html
 <div style="background: url(img/banner.ipg) center; height: 600px;">
