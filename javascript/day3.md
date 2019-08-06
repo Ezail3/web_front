@@ -108,6 +108,7 @@ var a = 3;
 function my(){
     a = 6;
 }
+
 ```
 
 局部(函数)作用域可以使用全局变量，反过来不过可以
@@ -122,6 +123,7 @@ function my(){
 }
 my()；
 console.log(a);
+
 ```
 
 **闭包：**
@@ -141,6 +143,7 @@ var c = getCount();
 console.log(c());
 console.log(c());
 console.log(c());
+
 ```
 
 这样写，n定义在函数内部，可以避免全局污染
@@ -148,6 +151,8 @@ console.log(c());
 全局变量容易被篡改，且占内存，建议少用
 
 当然闭包也带来了问题，那就是内存泄露，这里getCount()无法销毁，一直被c挂着，所以也建议少用
+
+
 
 ## Ⅱ、结构化编程
 
@@ -163,6 +168,7 @@ if(a > 6){
 }else{
     alert("a小于6");
 }
+
 ```
 
 if条件中只有6种情况为false，其余都是true
@@ -185,6 +191,7 @@ while(n < 5){
     console.log(n);
     n++;
 }
+
 ```
 
 **for**
@@ -193,6 +200,7 @@ while(n < 5){
 for(var n = 0; n < 5; n++){
     console.log(n)；
 }
+
 ```
 
 for用的多，常用作数组遍历
