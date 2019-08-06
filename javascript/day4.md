@@ -102,6 +102,8 @@ for(var key in person){
 }
 ```
 
+
+
 ## Ⅱ、内置对象
 
 刚才上面写的是我们自己创建的对象，叫自定义对象，现在整理一下javascript的内置对象和给我们准备好的属性和方法
@@ -128,6 +130,7 @@ paresInt() 取字符串中整数开头的部分
 parseFloat() 取字符串中小数开头的部分
 var a = 12.56；
 a.toFixed(N) 按N位四舍五入取整
+
 ```
 
 ### 2.2 关于数组
@@ -149,6 +152,7 @@ sort(function(a,b){return a-b})给数组元素排序，根据unicode编码排序
 
 splice()删除，插入，替换数组中指定元素
 arr.splice(i,j,a,b,c)从i个开始删j个,a,b,c为插入的新值，直接插入的话j为0
+
 ```
 
 ### 2.3 正则
@@ -183,6 +187,7 @@ test方法，默认是部分匹配
             
 解决方案：
 在整条正则表达式加^表示以...开头，在整条正则表达式加$代表以...结尾
+
 ```
 
 **案例：**
@@ -244,6 +249,7 @@ getSeconds() 0-59
 getTime() 1970-01-01至今的毫秒数
 以上所有方法get改为set就是设置某个时间，getDay()除外
 setMonth() 要减1修正
+
 ```
 
 
@@ -256,13 +262,14 @@ setMonth() 要减1修正
 function unique(arr){
     var hash = [];
     for(var i = 0; i < arr.length; i++){
-        if(-1 == hash.indexOf(arr[i])){
+        if(-1 == hash.indexOf[i]){
             hash.push(arr[i]);
         }
     }
     
     return hash;
 }
+
 ```
 
 ### 3.2 字符串中单词首字母大写
@@ -275,6 +282,7 @@ function First_Word_Upper{
     }
     return words.join(" ");
 }
+
 ```
 
 ### 3.3 四位随机验证码，包含英文大小写和数字
