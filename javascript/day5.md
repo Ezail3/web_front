@@ -106,6 +106,7 @@ box.innerHTML = "<h1>hello world!!!<h1>";
 
 ```javascript
 box.innerHTML = "hello world!!!";
+
 ```
 
 innerText就按文字识别，innerHTML可以识别html结构，innerText能干的innerHTML都能干
@@ -130,6 +131,7 @@ console.log(box.style.width);
 box.style.width = "300px";
 //下面这个要注意，es6中提出class概念，所以这里需要区别对待，这里的className是指class
 box.className = 'xxx';
+
 ```
 
 - 设置属性传属性名和属性值(用的不多)
@@ -137,6 +139,7 @@ box.className = 'xxx';
 ```javascript
 box.setAttribute("属性名","属性值");
 box.getAttribute("属性名");
+
 ```
 
 **有个问题**
@@ -162,6 +165,7 @@ var name = "小明";
 "<h1>" + name + "<h1>"
 es6：
 `<h1> ${name} <h1>`
+
 ```
 
 ### 2.3 删
@@ -170,6 +174,7 @@ es6：
 
 ```javascript
 box.innerHTML = "";
+
 ```
 
 **删属性**
@@ -177,6 +182,7 @@ box.innerHTML = "";
 ```javascript
 box.removeAttribute("xxx");
 //直接置空的话属性还在，box.id = ""
+
 ```
 
 **删自己**
@@ -185,6 +191,7 @@ box.removeAttribute("xxx");
 
 ```javascript
 爹元素对象.removeChild(子元素对象);
+
 ```
 
 ### 2.4 增
@@ -197,6 +204,7 @@ ele.innerHTML = "我是js创造的元素";
 爹元素对象.appendChild(子元素对象)；
 //向父元素对象最后追加
 //创建==》加内容==》追加到爹下面(2，3两步顺序无所谓)
+
 ```
 
 
@@ -214,6 +222,7 @@ ele.innerHTML = "我是js创造的元素";
         }
     </script>
 </body>
+
 ```
 
 onclick写在开始标签里面，那我们就可以通过对象操作，如下：
@@ -232,6 +241,7 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
 		//btn.setAttribute("onclick","my()");		这样也可以绑定事件，但不常用
     </script>
 </body>
+
 ```
 
 **匿名函数写法**
@@ -246,6 +256,7 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
         }
     </script>
 </body>
+
 ```
 
 ### 3.2 鼠标划过事件
@@ -282,6 +293,7 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
 //下面常用于输入框
 //onfocus 获得焦点
 //onblur 失去焦点
+
 ```
 
 
@@ -351,8 +363,6 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
     </script>
 </body>
 ```
-
-
 
 ### 4.2 选项卡
 
