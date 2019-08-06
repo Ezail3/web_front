@@ -74,6 +74,7 @@
 2、javascript包含ECMAScript、DOM、BOM，前两个是重点
 
 
+
 ## Ⅱ、变量初识
 
 内存 ===> 程序 ===》数据 ===》 变量
