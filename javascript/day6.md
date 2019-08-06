@@ -222,4 +222,3 @@ window.setInterval(function(){this}, 1000)
     </script>
 </body>
 ```
-
