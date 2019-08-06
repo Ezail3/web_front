@@ -236,9 +236,9 @@ onclick写在开始标签里面，那我们就可以通过对象操作，如下�
             alert(1);
         }
         btn.onclick = my;
-	    //注意这里my不带括号，上面属性值在html中是一个字符串，这里需要的是方法的内容，加小括号是让方法执行了
-		//这种写法并没有在开始标签中加onclick属性，removeAttribute删除不掉这个属性
-		//btn.setAttribute("onclick","my()");		这样也可以绑定事件，但不常用
+	    //这里my不带括号，上面属性值在html中是一个字符串，这里需要的是方法的内容，加小括号是让方法执行了
+	    //这种写法并没有在开始标签中加onclick属性，removeAttribute删除不掉这个属性
+            //btn.setAttribute("onclick","my()");		这样也可以绑定事件，但不常用
     </script>
 </body>
 
